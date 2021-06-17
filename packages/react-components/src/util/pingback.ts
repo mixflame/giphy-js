@@ -11,12 +11,12 @@ const firePingback = (actionType: PingbackActionType) => (
     if (!gif.analytics_response_payload) {
         return
     }
-    pingback({
-        analyticsResponsePayload: gif.analytics_response_payload,
-        userId,
-        actionType,
-        attributes: { position: JSON.stringify(getClientRect(target)), ...attributes },
-    })
+    //pingback({
+    //    analyticsResponsePayload: gif.analytics_response_payload,
+    //    userId,
+    //    actionType,
+    //    attributes: { position: JSON.stringify(getClientRect(target)), ...attributes },
+    //})
 }
 
 // no target on this one
@@ -29,12 +29,12 @@ export const onGifSeen = (
     if (!gif.analytics_response_payload) {
         return
     }
-    pingback({
-        analyticsResponsePayload: gif.analytics_response_payload,
-        userId,
-        actionType: 'SEEN',
-        attributes: { position: JSON.stringify(position), ...attributes },
-    })
+    //pingback({
+    //    analyticsResponsePayload: gif.analytics_response_payload,
+    //    userId,
+    //    actionType: 'SEEN',
+    //    attributes: { position: JSON.stringify(position), ...attributes },
+    //})
 }
 
 export const onGifClick = firePingback('CLICK')
