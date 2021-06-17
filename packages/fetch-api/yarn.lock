@@ -882,10 +882,10 @@
   resolved "https://registry.yarnpkg.com/@giphy/js-types/-/js-types-4.0.0.tgz#68b29c12e4baf9071117f6c893ba02be2a1cdc4f"
   integrity sha512-8VKllPsUEpzBNCo0RcubtsLi7rkojYy6QRqpSlvVE/tfbEbDTyWmZCqk+lEcU16GXnurg3K23K/+Zk/7zrpZSg==
 
-"@giphy/js-util@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@giphy/js-util/-/js-util-3.0.0.tgz#878b8a362d172894f40d93127cd2654c5253c58e"
-  integrity sha512-u0/nUK0vKEgYRGO08I7HSYt7Z7MbLF5GsIIdCJhx5SuPktsWzzljRs/IcEAkR6391j1dEq4CPZJqEuXwLPsdeA==
+"@giphy/js-util@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-util/-/js-util-3.1.0.tgz#984ce7c2bb8ce4c0a6fa47c4f416c55aa792a2bf"
+  integrity sha512-9AlUGT/hntGyDrqc39xYU+Fp7U8ijfR/8AoDpHnFPL0u1NXeoKwLJQR+I2D01uhv7OI4LM9YVxprqe8aOy68nw==
   dependencies:
     "@giphy/js-types" "^4.0.0"
     dompurify "^2.2.2"
@@ -3172,12 +3172,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.4:
-  version "4.17.20"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
-  integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
-
-lodash@^4.17.21:
+lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.21, lodash@^4.17.4:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
